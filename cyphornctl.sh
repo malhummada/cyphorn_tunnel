@@ -301,6 +301,26 @@ do_logs() {
 
 do_show_cmd() { build_cmd; echo; }
 
+do_pubkey() {
+  local f="/etc/cyphorntun/identity.yaml"
+  if [[ -f "$f" ]]; then
+    # Extract the line with "public_key" and show only the value
+    local pk
+    pk=$(grep -m1 'public_key:' "$f" | awk -F'"' '{print $2}')
+    if [[ -n "$pk" ]]; then
+      echo "Cyphorn Server Public Key:"
+      echo "$pk"
+    else
+      echo "Public key not found in $f"
+    fi
+  else
+    echo "Identity file $f not found. Start the server once to generate it."
+  fi
+}
+
+
+
+
 case "$CMD" in
   start)    do_start ;;
   stop)     stop_all ;;
@@ -308,6 +328,7 @@ case "$CMD" in
   status)   do_status ;;
   logs)     do_logs ;;
   show-cmd) do_show_cmd ;;
+  pubkey)   do_pubkey ;;
   *)        usage; exit 1 ;;
 esac
 
