@@ -37,9 +37,21 @@ Cyphorn Tunnel uses **ChaCha20-Poly1305** as its authenticated encryption algori
 - Provides confidentiality, integrity, and authenticity in one operation.  
 - Trusted in modern protocols such as TLS 1.3 and WireGuard.  
 
+---
 
+## Important Note
 
+Cyphorn Tunnel requires that the operating system supports **TUN/TAP kernel devices**.  
+It is tested on **Linux (Debian 12 / Ubuntu 22.04)**.  
+Other systems (such as Windows or macOS) are not natively supported unless additional TUN/TAP drivers (e.g., Wintun) and manual integration are provided.
 
+---
+
+Cyphorn Tunnel Binary and Management Script (Proprietary)
+
+Trademark requires a paid, long-term license. Contact: cyphorntech@gmail.com
+
+---
 
 ## لماذا نفق سايفورن؟
 
@@ -63,17 +75,18 @@ Cyphorn Tunnel uses **ChaCha20-Poly1305** as its authenticated encryption algori
 - مُحسّن للأداء على جميع وحدات المعالجة المركزية (CPU)، حتى بدون تسريع الأجهزة.
 - يوفر السرية والنزاهة والموثوقية في عملية واحدة.
 - موثوق به في البروتوكولات الحديثة مثل TLS 1.3 وWireGuard.
+---
+
+## ملاحظة هامة
+
+يتطلب Cyphorn Tunnel أن يدعم نظام التشغيل أجهزة **TUN/TAP** في النواة (Kernel).  
+تم اختباره على **لينكس (Debian 12 / Ubuntu 22.04)**.  
+الأنظمة الأخرى (مثل Windows أو macOS) غير مدعومة بشكل مباشر إلا في حال تثبيت تعريفات TUN/TAP إضافية (مثل Wintun) وإجراء تكامل يدوي.
 
 ---
 
 
-برنامج Cyphorn Tunnel الثنائي وسكربت الإدارة (ملكي)
 
-يُعد Cyphorn Tunnel نفقًا مشفّرًا مخصصًا من الطبقة الرابعة (Layer-4) عبر بروتوكول UDP، قام بتطويره محمد علي الحماده.
-يحتوي هذا المستودع فقط على الملف التنفيذي (الثنائي) وسكربت الإدارة، بينما لم يتم نشر الشيفرة المصدرية.
-
-الاستخدام التجاري يتطلب الحصول على ترخيص مدفوع مسبقًا.
-للتواصل: cyphorntech@gmail.com
 
   --------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -148,3 +161,22 @@ Copyright (c) 2025 Mohammad Ali Alhummada.
 Contact: cyphorntech@gmail.com
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+برنامج Cyphorn Tunnel الثنائي وسكربت الإدارة (ملكي)
+
+يُعد Cyphorn Tunnel نفقًا مشفّرًا مخصصًا من الطبقة الرابعة (Layer-4) عبر بروتوكول UDP، قام بتطويره محمد علي الحماده.
+يحتوي هذا المستودع فقط على الملف التنفيذي (الثنائي) وسكربت الإدارة، بينما لم يتم نشر الشيفرة المصدرية.
+
+⚠️ يُحظر تمامًا الاستخدام أو التوزيع أو التعديل غير المصرح به.
+
+
+
+---
+
+الاستخدام التجاري يتطلب الحصول على ترخيص مدفوع مسبقًا.
+للتواصل: cyphorntech@gmail.com
+
+---
+
+
