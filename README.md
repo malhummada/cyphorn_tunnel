@@ -6,13 +6,6 @@
 
 
 # cyphorn_tunnel
-Cyphorn Tunnel binary and manager script (proprietary)
-
-Cyphorn Tunnel is a proprietary encrypted Layer-4 tunnel over UDP, developed by Mohammad Alhummada.
-
-This repository contains only the binary and the manager script. The source code is not published.
-Commercial use requires a paid license. For inquiries: cyphorntech@gmail.com
-
   --------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Why Cyphorn Tunnel?
@@ -47,11 +40,7 @@ Other systems (such as Windows or macOS) are not natively supported unless addit
 
 ---
 
-Cyphorn Tunnel Binary and Management Script (Proprietary)
 
-Trademark requires a paid, long-term license. Contact: cyphorntech@gmail.com
-
----
 
 ## لماذا نفق سايفورن؟
 
