@@ -334,6 +334,3 @@ esac
 
 
 
-sudo chgrp -R webfiles /etc/cyphorntun
-sudo chmod -R 750 /etc/cyphorntun
-sudo chmod 640 /etc/cyphorntun/*.yaml
